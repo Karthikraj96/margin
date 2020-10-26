@@ -14,4 +14,4 @@ app.post("/",function(req,res){
     res.send(data)
 })
 
-app.listen(8001)
+app.listen(process.env.PORT)
